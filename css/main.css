@@ -93,6 +93,7 @@ a:active {
 
 .header a:not(.logo):hover {
     color: var(--alt);
+    transform: translateY(-2px);
 }
 
 .header a.active {
