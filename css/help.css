@@ -1,0 +1,13 @@
+.support {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    border-radius: 100px;
+    font-size: 25px;
+    background-color: var(--highlight);
+    padding: 10px;
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}

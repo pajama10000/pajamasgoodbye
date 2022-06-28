@@ -3,13 +3,13 @@
 :root {
     --highlight: #8B3ACA;
     --main: #FFF;
-    --background: #070707;
+    --background: hwb(0 3% 97%);
     --alt: #3A2A9E;
     --alt1: #281852;
 }
 
 body {
-    background: linear-gradient(90deg, var(--highlight) 0%, var(--alt) 100%);
+    background: linear-gradient(250deg, var(--highlight) 0%, var(--alt) 50%);
     overflow-x: hidden;
     overflow-y: auto;
     margin: 0px;
@@ -186,7 +186,7 @@ section.full {
 
 .page-loader {
     height: 100%;
-    background-color: var(--highlight);
+    background-color: var(--background);
     position: fixed;
     right: 0px;
     animation: PageLoadTransition .4s ease-in;
@@ -200,13 +200,12 @@ section.full {
 }
 
 .page-loader:nth-child(2) {
-    background-color: var(--alt);
+    background-color: var(--alt1);
     animation-duration: .3s;
     z-index: 101;
 }
 
 .page-loader.reverse:nth-child(2) {
-    background-color: var(--alt1);
     animation-duration: .5s;
     z-index: 101;
 }
@@ -269,6 +268,19 @@ body:not(.page-loader) {
 
 #main-center>h4 {
     font-size: 3vw;
+    animation: SlideUp 3.5s ease;
+}
+
+@keyframes SlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(100%)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -309,7 +321,7 @@ button {
 button>div {
     position: absolute;
     top: -2px;
-    left: 50%;
+    left: 75%;
     background-color: var(--alt);
     border: 1px solid var(--main);
     height: 200%;
@@ -375,6 +387,15 @@ footer {
 footer .right {
     float: right;
 }
+
 footer .left {
     float: left;
+}
+
+.middle#links {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(7, 7, 7, .4);
+    backdrop-filter: blur(30px);
+    filter: drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.178));
 }
