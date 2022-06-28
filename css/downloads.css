@@ -1,0 +1,27 @@
+:root {
+    --latest: #5A9E3D
+}
+
+div.downloads {
+    position: relative;
+    width: 100%;
+    top: 25%;
+    height: auto;
+    text-align: center;
+}
+
+button.download {
+    margin-bottom: 10px;
+    width: 80%;
+    transition: 1s ease-in;
+    background-color: var(--alt1);
+}
+
+button.download:hover {
+    filter: brightness(1.1);
+    transition: 1s ease-in;
+}
+
+button.download.latest {
+    background-color: var(--latest);
+}

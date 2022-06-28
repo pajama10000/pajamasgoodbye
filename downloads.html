@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/bedc2eb440.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/downloads.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="./js/main.js"></script>
+
+        <link rel="shortcut icon" type="image/ico" href="./assets/icon.ico"/>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="robots" content="nofollow"/>
+    
+        <meta name="description" content="octopus">
+        <meta name="keywords" content="Octopus is a high performance and feature rich Velocity fork. We feature built in AntiBot, player management and much more.">
+        <meta name="author" content="MattMX, ZeoNight">
+        <link rel="icon" href="./assets/icon.ico"> 
+    
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://octopusmc.org/">
+        <meta property="og:title" content="octopus">
+        <meta property="og:description" content="Octopus is a high performance and feature rich Velocity fork. We feature built in AntiBot, player management and much more.">
+        <meta property="og:image" content="./assets/icon.ico">
+        <meta name="theme-color" content="#8B3ACA">
+    
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://octopusmc.org/">
+        <meta property="twitter:title" content="octopus">
+        <meta property="twitter:description" content="Octopus is a high performance and feature rich Velocity fork. We feature built in AntiBot, player management and much more.">
+        <meta property="twitter:image" content="./assets/icon.ico">
+
+        <title>octopus</title>
+    </head>
+    <body>
+        <div class='page-loader'></div>
+        <div class='page-loader'></div>
+        <div class="header" id="#header">
+            <a href="#" onclick="setPage('index.html')" class="logo"><img src="./assets/logo_white.png"> octopus</a>
+            <a href="https://discord.gg/tHabbHEkNc">Discord</a>
+            <a href="https://github.com/OctopusMC/octopus" target="_blank">GitHub</a>
+            <a href="#" onclick="setPage('downloads.html')" class="active">Download</a>
+            <a href="javascript:void(0);" class="icon" onclick="topbar()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <section id="#main" class="full">
+            <div class="middle" style="top: 25%"><h1>Download</h1></div>
+            <div class="downloads" id="downloads">
+                <button class="download latest">
+                    Download ${version} <i class="fa-solid fa-download"></i>
+                </button>
+                <button class="download">
+                    Download ${version} <i class="fa-solid fa-download"></i>
+                </button>
+            </div>
+        </section>
+        <script src="./js/downloads.js"></script>
+    </body>
+</html>
