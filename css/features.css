@@ -39,9 +39,8 @@ section#features {
     font-size: 100px;
     transform: translate(-50%, 50%);
     float: left;
+    transition: .4s ease;
 }
-
-.bl p,
 .bl h1 {
     float: left;
     position: absolute;
@@ -49,4 +48,22 @@ section#features {
     transform: translateX(-50%);
     max-width: 100%;
     top: 50%;
+    transition: .4s ease;
+}
+.bl p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .4s ease;
+}
+
+.bl.info p {
+    opacity: 1;
+}
+.bl.info h1 {
+    opacity: 0;
+}.bl.info i {
+    opacity: 0;
 }

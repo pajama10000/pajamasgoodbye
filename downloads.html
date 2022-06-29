@@ -47,12 +47,11 @@
         <section id="#main" class="full">
             <div class="middle" style="top: 25%"><h1>Download</h1></div>
             <div class="downloads" id="downloads">
-                <button class="download latest">
-                    Download ${version} <i class="fa-solid fa-download"></i>
-                </button>
-                <button class="download">
-                    Download ${version} <i class="fa-solid fa-download"></i>
-                </button>
+                <div class="bl">
+                    <i class="fa-solid fa-file-circle-xmark"></i>
+                    <h1>No releases found!</h1>
+                </div><br>
+                <button onclick="openUrl('https://github.com/OctopusMC/octopus/releases/')"><div></div>Check the GitHub page</button>
             </div>
         </section>
         <script src="./js/downloads.js"></script>

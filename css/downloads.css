@@ -25,3 +25,29 @@ button.download:hover {
 button.download.latest {
     background-color: var(--latest);
 }
+
+.bl {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    transition: .4s ease;
+}
+.bl i {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    font-size: 100px;
+    transform: translate(-50%, 50%);
+    float: left;
+}
+
+.bl p,
+.bl h1 {
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    top: 50%;
+}
