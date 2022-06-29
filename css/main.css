@@ -17,9 +17,12 @@ body {
     font-family: Poppins, sans-serif;
     color: var(--main);
     user-select: none;
+    position: relative;
 }
 
 html {
+    overflow-x: hidden;
+    overflow-y: auto;
     scroll-behavior: smooth;
 }
 
