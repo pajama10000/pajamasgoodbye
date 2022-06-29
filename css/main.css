@@ -320,24 +320,19 @@ button {
     filter: drop-shadow(0px 0px 1px #FFFFFF0F);
     box-shadow: 0px 0px 1px #FFFFFFAF;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(135deg,
+            rgba(255, 255, 255, 0.0) 0%,
+            rgba(255, 255, 255, 0.0) 37%,
+            rgba(255, 255, 255, 0.8) 45%,
+            rgba(255, 255, 255, 0.0) 50%
+            );
+    background-position: -200px 0px;
 }
 
-button>div {
-    position: absolute;
-    top: -2px;
-    left: 75%;
-    background-color: var(--alt);
-    border: 1px solid var(--main);
-    height: 200%;
-    width: 110%;
-    z-index: -1;
-    transition: .4s ease-in-out;
-    transform: rotate(-45deg);
-}
-
-button:hover>div {
-    left: 25%;
-    transition: .4s ease-in-out;
+button:hover {
+    transition: .7s ease;
+    background-position: 100px 0px;
 }
 
 button:focus {
