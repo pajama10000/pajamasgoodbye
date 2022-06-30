@@ -1,0 +1,9 @@
+div#info {
+    max-width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    div#info {
+        max-width: 90%;
+    }
+}
