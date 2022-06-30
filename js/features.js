@@ -5,6 +5,7 @@ $(".bl").each((i, o) => {
     $(o).mouseleave(() => {
         $(o).removeClass("info");
     })
+    //
     $(o).click(() => {
         setPage(`moreinfo.html?info=${$(o).attr("id")}`)
     });
