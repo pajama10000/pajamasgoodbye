@@ -19,9 +19,8 @@ const pages = [
         id: "management",
         title: "Manage and track your playerbase",
         info: [
-            "<p>Keep track of what your players are up to, with our amazing analytic tools.</p>",
-            "<p>Our system can tell you what players spent most time on, retention per server, which servers your players typically prefer, and which servers they first log into, and a whole lot more.</p>",
-            "<p>Providing tools to manage your playerbase with ease.</p>"
+            "<p>Keep track of what your players are up to, with our easy to use commands and GUIs.</p>",
+            "<p>You can also track what your playerbase gets up to with our handy Analytics tool.</p>"
         ]
     },
     {
@@ -38,7 +37,8 @@ const pages = [
         title: "Enhanced API",
         info: [
             "<p>We make it easier for developers, so you can do more while writing less.</p>",
-            "<p>Offering full documentation with examples, the Octopus API helps developers create incredible plugins with minimal time and effort, with our built in systems and functions: there's nothing you can't do.</p>"
+            "<p>Offering full documentation with examples, the Octopus API helps developers create incredible plugins with minimal time and effort, with our built in systems and functions: there's nothing you can't do.</p>",
+            "<p>Also providing data for Offline Players, so you don't have to.</p>"
         ]
     },
     {
@@ -72,6 +72,32 @@ const pages = [
         info: [
             "<p>Want to contribute? We would love to work with you, and help bring even more features to Octopus!</p>",
             "<p>Simply create a fork of our project on our GitHub page and then submit a pull request! We'll be sure to check it out.</p>"
+        ]
+    },
+    {
+        id: "analytics",
+        title: "Analytics",
+        info: [
+            "<p>Stay up-to-date with your playerbase and what servers they love.</p>",
+            "<p>Our analytics system can help you see everything you'd need to know about your proxy.</p>",
+            "<p>Search through your playerbase with an easy to use web interface and in game commands.</p>"
+        ]
+    },
+    {
+        id: "vpn",
+        title: "AntiVPN",
+        info: [
+            "<p>We feature a simple VPN blocker, to keep people from ban evading.</p>",
+            "<p>Don't want it? Simply disable it in the config file.</p>"
+        ]
+    },
+    {
+        id: "ban",
+        title: "Punishment System",
+        info: [
+            "<p>Want to have complete control of your playerbase? We offer a full punishment system to help control your players.</p>",
+            "<p>Ban, temp ban, ip ban and mute your players to keep them all in line!</p>",
+            "<b>(Not yet in development)</b>"
         ]
     }
 ]
