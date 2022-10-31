@@ -3,9 +3,9 @@
 :root {
     --highlight: #88312C;
     --main: #FFF;
-    --background: hwb(0 3% 97%);
-    --alt: #58221f;
-    --alt1: #281852;
+    --background: #1D0A09;
+    --alt: #742925;
+    --alt1: #431816;
 }
 
 body {
