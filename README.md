@@ -1,4 +1,4 @@
 # canadamc.org
 CandaMC website
 
-CanadaMC is a rich Velocty fork for minecraft.
+CanadaMC is a rich Paper fork for minecraft.
