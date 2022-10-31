@@ -37,7 +37,7 @@ const pages = [
         title: "Enhanced API",
         info: [
             "<p>We make it easier for developers, so you can do more while writing less.</p>",
-            "<p>Offering full documentation with examples, the Octopus API helps developers create incredible plugins with minimal time and effort, with our built in systems and functions: there's nothing you can't do.</p>",
+            "<p>Offering full documentation with examples, the canadamc API helps developers create incredible plugins with minimal time and effort, with our built in systems and functions: there's nothing you can't do.</p>",
             "<p>Also providing data for Offline Players, so you don't have to.</p>"
         ]
     },
@@ -70,7 +70,7 @@ const pages = [
         id: "os",
         title: "Open Source",
         info: [
-            "<p>Want to contribute? We would love to work with you, and help bring even more features to Octopus!</p>",
+            "<p>Want to contribute? We would love to work with you, and help bring even more features to canadamc!</p>",
             "<p>Simply create a fork of our project on our GitHub page and then submit a pull request! We'll be sure to check it out.</p>"
         ]
     },
