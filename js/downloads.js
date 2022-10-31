@@ -1,5 +1,5 @@
-const TAGS_URL = "https://api.github.com/repos/OctopusMC/octopus/tags"
-const RELEASE_URL = "https://github.com/OctopusMC/octopus/releases/tag/"
+const TAGS_URL = "https://api.github.com/repos/CanadaMC/canadamc/tags"
+const RELEASE_URL = "https://github.com/canadamc/canadamc/releases/tag/"
 
 const TEST_URL = "https://api.github.com/repos/Matt-MX/AnnouncerVelocity/tags"
 const MAX_RELEASES = 20;
