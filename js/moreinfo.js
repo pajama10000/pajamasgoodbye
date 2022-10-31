@@ -3,7 +3,7 @@ const pages = [
         id: "backend",
         title: "Easy backend communication",
         info: [
-            "<p>Usually with Velocity, you'd have to use Redis or something similar to communicate with your backend servers.</p>",
+            "<p>Usually with Paper, you'd have to use Redis or something similar to communicate with your backend servers.</p>",
             "<p>Thanks to our friendly Backend system, you can communicate with backend servers by simply installing a plugin on them, and using our API to make dynamic, stunning systems.</p>"
         ]
     },
