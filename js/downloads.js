@@ -1,7 +1,7 @@
 const TAGS_URL = "https://api.github.com/repos/CanadaMC/canadamc/tags"
-const RELEASE_URL = "https://github.com/canadamc/canadamc/releases/tag/"
+const RELEASE_URL = "https://github.com/canadamc/CanadaMC/releases/tag/"
 
-const TEST_URL = "https://api.github.com/repos/Matt-MX/AnnouncerVelocity/tags"
+const TEST_URL = "https://api.github.com/repos/CanadaMC/CanadaMC/tags"
 const MAX_RELEASES = 20;
 
 $.getJSON(TAGS_URL, (res) => {
