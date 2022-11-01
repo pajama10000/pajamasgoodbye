@@ -27,9 +27,7 @@ const pages = [
         id: "antibot",
         title: "Built in Anti-Bot",
         info: [
-            "<p>We want to make sure your servers are up all the time, without issues.<p>",
-            "<p>That's why we provide a free built in anti-bot solution.</p>",
-            "<p>Our system provides protecton from many forms of attacks that could be used to harm your server, all of which are fully customizable!</p>"
+            "<p>
         ]
     },
     {
