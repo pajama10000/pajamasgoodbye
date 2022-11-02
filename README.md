@@ -1,6 +1,6 @@
-# CanadaMC [website](https://canadamc.org)
+<div align="center"># CanadaMC [website](https://canadamc.org)
 
-### CanadaMC is a rich Paper fork for minecraft.
+<div align="center"### CanadaMC is a rich Paper fork for minecraft.
 
 <div align="center">
   <a href="https://github.com/canadamc/canadamc">
